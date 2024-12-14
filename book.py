@@ -36,9 +36,9 @@ while True:
         delete_book_file.delete_books(all_books)
     elif menu == "5":
         lend_book_file.lend_book(all_books, lend_info)
-    elif menu == 6:
+    elif menu == "6":
         return_book_file.return_book(all_books, lend_info) 
-    elif menu == 0:
+    elif menu == "0":
         break
     else:
         print("Invalid option, try again.")
